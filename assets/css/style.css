@@ -37,6 +37,11 @@
     background-color: #fff;
 }
 /*---Special style rules---*/
+*{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+}
+
 h1,
 h2,
 h3,
@@ -231,4 +236,21 @@ footer{
 .video{
     padding-top: 15px;
     padding-bottom: 0;
+}
+
+/*---Band Members Info---*/
+.aboutband{
+    padding-bottom: 7.5px;
+    padding-top: 7.5px;
+}
+
+.bandmember{
+    height:250px;
+    width: 300px;
+    display: inline;
+    float:left;
+}
+
+.aboutband span{
+    display: block;
 }
