@@ -249,10 +249,15 @@ footer{
     width: 300px;
     display: inline;
     float:left;
+    padding-bottom: 10px;
 }
 
 .aboutband span{
     display: block;
+}
+
+.memberinfo{
+    padding-left: 15px;
 }
 
 /*---Contact Us---*/
