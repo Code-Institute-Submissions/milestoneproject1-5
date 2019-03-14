@@ -25,14 +25,6 @@
     background-color: #525252;
 }
 
-.bg-color-person-info{
-    background-color: #f4f4f4;
-}
-
-.bg-color-work-history{
-    background-color: #9b59b6;
-}
-
 .bg-color-contact{
     background-color: #fff;
 }
@@ -300,3 +292,4 @@ button[type="submit"] {
 .songinfo{
     max-height: 300px;
 }
+/*---Events---*/
