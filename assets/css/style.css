@@ -14,7 +14,7 @@
 }
 
 .ui-menu-color-about {
-    background-color: #9b59b6;
+    background-color: #8B0000;
 }
 
 .ui-menu-color-media {
@@ -279,4 +279,24 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+
+/*---Media---*/
+.songcover{
+    height: auto;
+    width: 30%;
+    display: inline-block;
+    float:left;
+    padding-bottom: 10px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.songplayer{
+    display:inline-block;
+    width:70%;
+}
+
+.songinfo{
+    max-height: 300px;
 }
