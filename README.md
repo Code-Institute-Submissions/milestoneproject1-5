@@ -11,7 +11,7 @@ The webpage features a video that users can watch, 4 different songs that the us
 
 If I had the required knowledge I'd have liked to include a calander that would have shown when upcoming events were scheduled for, instead of having to rely on changing text.
 
-##Technologies Used
+### Technologies Used
 [Bootstrap](https://getbootstrap.com/) - Bootstrap was used mainly for its ability to help in laying out webpages.
 [Font Awesome](https://fontawesome.com/) - Font Awesome (FA for short) was used for the icons that it includes as this help a lot with styling the webpage.
 [Hover.css](http://ianlunn.github.io/Hover/) - Hover.css was used just to help with styling, it provides a nice visual indicator to the user that they have moused over one of the navigation links.
