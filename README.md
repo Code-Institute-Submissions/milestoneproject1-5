@@ -17,8 +17,20 @@ If I had the required knowledge I'd have liked to include a calander that would 
 - [Hover.css](http://ianlunn.github.io/Hover/) - Hover.css was used just to help with styling, it provides a nice visual indicator to the user that they have moused over one of the navigation links.
 
 ## Testing
-
-
+### All Page
+-Ensure links to other pages work
+-Ensure logo image disapears depedning on screen size
+### Main Page
+-Ensure video works on both desktop and mobile screen
+### About Us Page
+-Amount of text should lessen depending on screen size
+### Media Page
+-Mp3 players and images should stack on top of eachother instead of being side by side when page size shrinks
+### Events Page
+-Months should stack vertically instead of being side by side
+### Contact Us Page
+-Form should only allow a valid email address
+-From should require text in all three input boxes
 ## Deployment
 
 
