@@ -32,7 +32,11 @@ If I had the required knowledge I'd have liked to include a calander that would 
 - Form should only allow a valid email address
 - From should require text in all three input boxes
 ## Deployment
-
+The project is hosted on GitHub Pages using the master branch, as this is a small scale project I felt it wasn't necessary to have a seperate branch that would be used for live deploment and a branch for development.
 
 ## Credits
+The images and video on the main page and about us page, as well as the audio files for the media page were all provided by Code Institute in the GitHub Repo [Project Assets](https://github.com/Code-Institute-Org/project-assets)
+
+The the acompany the audio files on the media page were pulled from google.
+
 The text for the section of information on the main page was copied from the wikipedia page for [The Monkees](https://en.wikipedia.org/wiki/The_Monkees) with the information on each band member being copied from their respective wikipedia pages: [Peter Tork](https://en.wikipedia.org/wiki/Peter_Tork), [Micky Dolenz](https://en.wikipedia.org/wiki/Micky_Dolenz), [Michael Nesmith](https://en.wikipedia.org/wiki/Michael_Nesmith) and [Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician)).
