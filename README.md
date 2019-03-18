@@ -27,7 +27,7 @@ If I had the required knowledge I'd have liked to include a calander that would 
 ### Media Page
 - Mp3 players and images should stack on top of eachother instead of being side by side when page size shrinks
 ### Events Page
-- Months should stack vertically instead of being side by side
+- Months should stack vertically instead of being side by side when on a smaller screen
 ### Contact Us Page
 - Form should only allow a valid email address
 - From should require text in all three input boxes
