@@ -32,6 +32,18 @@
 *{
     font-family: "Exo", sans-serif;
     font-weight: 300;
+    font-size: 1rem;
+}
+
+html,body{
+    height: 100%;
+    margin:0;
+}
+
+.content{
+    min-height: -webkit-calc(70% - 100px);
+    min-height: -moz-calc(70% - 100px);
+    min-height: calc(70% - 100px);
 }
 
 h1,
@@ -72,10 +84,25 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+}
 /*---Heading---*/
 
 header {
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .heading {
@@ -83,7 +110,7 @@ header {
 }
 
 .logo {
-    background: url("../images/band.jpg");
+    background: url("../images/cover1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,8 +122,8 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
+    font-weight: 300;
+    font-size: 50px;
     margin-top: 50px;
     color: #fff;
 }
@@ -104,8 +131,8 @@ header {
 .title {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
+    font-size: 25px;
+    margin-top: 10px;
     margin-bottom: 90px;
     color: #fff;
 }
@@ -157,24 +184,15 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 /*---Footer---*/
 
 footer{
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 90px;
     margin:0;
-}
-
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    margin-top: 10px;
 }
 
 .social-links{
@@ -203,6 +221,7 @@ footer{
 
 #footer-details{
     padding: 20px;
+    padding-bottom: 0px;
 }
 
 .contact{
@@ -238,10 +257,16 @@ footer{
 
 .bandmember{
     height: auto;
-    width: 30%;
+    width: 100%;
     display: inline;
     float:left;
     padding-bottom: 10px;
+}
+
+.bandmembername{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .aboutband span{
@@ -292,4 +317,15 @@ button[type="submit"] {
 .songinfo{
     max-height: 300px;
 }
+
 /*---Events---*/
+.timeline-item{
+    padding-bottom: 20px;
+}
+
+.eventsrow{
+    max-width: 70%;
+    padding: 0;
+    margin: 0 15%;
+    
+}
