@@ -3,7 +3,7 @@
 A static website for a band (the monkees) consisting of 5 different pages, a video of the band with a short description beside it, short descriptions of each member including links to the individual wikipedia pages for the band members, a page with 4 different songs to listen to and/or download, a page for all upcoming events and a final page where users can get in contact with the band for to discuss booking. The user will be able to reach any pages from anywhere as there are 4 links in the header (home, about us, media and upcoming events) and a link in the footer to reach the contact us page.
 
 ## UX
-
+The website has an indicatior of what page the user is currently on, this indicator is neither so large that it becomes distracting nor too small that it doesn't help the user know where they are. During development I was also advised to shrink the size of the images and video so that they did not become the main focus of pages where other information was shown.
 
 ## Features
 
