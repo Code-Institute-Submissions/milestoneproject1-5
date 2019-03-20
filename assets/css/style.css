@@ -92,9 +92,7 @@ h4 {
 .col-centered {
     display:inline-block;
     float:none;
-    /* reset the text-align */
     text-align:left;
-    /* inline-block space fix */
     margin-right:-4px;
     text-align: center;
 }
@@ -316,10 +314,22 @@ button[type="submit"] {
 .songplayer{
     display:inline-block;
     width:70%;
+    padding-top:5%;
+    padding-left: 2%;
+}
+
+.songplayer audio{
+    width:100%;
 }
 
 .songinfo{
     max-height: 300px;
+    padding: 0;
+    
+}
+
+.songrow{
+    width:100%;
 }
 
 /*---Events---*/
