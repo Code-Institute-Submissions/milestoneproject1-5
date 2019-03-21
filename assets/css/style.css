@@ -44,6 +44,7 @@ html,body{
     min-height: -webkit-calc(70% - 100px);
     min-height: -moz-calc(70% - 100px);
     min-height: calc(70% - 100px);
+    margin:0 15px;
 }
 
 h1,
@@ -59,7 +60,8 @@ h4 {
 
 .general-sub{
     font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 1rem;
     color: #fafafa;
 }
 
@@ -80,9 +82,9 @@ h4 {
 .history-heading,
 .section-heading{
     font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .row-centered {
@@ -120,7 +122,7 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 50px;
     margin-top: 50px;
     color: #fff;
@@ -128,7 +130,7 @@ header {
 
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 90px;
@@ -320,6 +322,7 @@ button[type="submit"] {
 
 .songplayer audio{
     width:100%;
+    height: 40px;
 }
 
 .songinfo{
@@ -330,6 +333,7 @@ button[type="submit"] {
 
 .songrow{
     width:100%;
+    margin-top: 10px;
 }
 
 /*---Events---*/
