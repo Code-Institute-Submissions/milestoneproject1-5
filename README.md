@@ -5,6 +5,8 @@ A static website for a band (the monkees) consisting of 5 different pages, a vid
 ## UX
 The website has an indicatior of what page the user is currently on, this indicator is neither so large that it becomes distracting nor too small that it doesn't help the user know where they are. During development I was also advised to shrink the size of the images and video so that they did not become the main focus of pages where other information was shown.
 
+[Wireframes](https://imgur.com/a/HvqAaRb) - These are the inital wireframes I made before starting development on the website, as you can see the design of the website didn't change too much but I did have to make some small changes.
+
 ## Features
 
 The webpage features a video that users can watch, 4 different songs that the user can listen to on the webpage itself or download for later use and a form that the user can fill out in order to contact the band.
